@@ -1,4 +1,4 @@
-package day32_arrays_split;
+package PracticeMay;
 
 import java.util.Arrays;
 

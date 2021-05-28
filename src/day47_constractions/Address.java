@@ -7,7 +7,24 @@ public class Address {
        private String state;
        private String zipCode;
        private String country = "USA";
+       //constructor method automatically run
+       public Address(){
+           System.out.println("Address constructor");
+           street = "123 unknown st";
+           city = "Java";
+           state = "WS";
+           zipCode = "00000";
 
+
+       }
+
+public Address (String street, String city, String state, String zipCode){
+           this.street = street;
+           this.city= city;
+           this.state = state;
+           this.zipCode = zipCode;
+           setStreet(street);//reuse code
+}
     @Override
     public String toString() {
         return street + ", " +city + ", "+ state + " " + zipCode;
@@ -18,7 +35,12 @@ public class Address {
     }
 
     public void setStreet(String street) {
-        this.street = street;
+           if (street.isEmpty() || street.length()>50) {
+               this.street = street;
+               System.out.println("Error");
+           }else{
+               this.street = street;
+           }
     }
 
     public String getCity() {

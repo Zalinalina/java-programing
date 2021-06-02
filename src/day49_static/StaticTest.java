@@ -8,5 +8,7 @@ public class StaticTest {
         //StaticMethods.instanceMethod();//error
         StaticMethods stm = new StaticMethods();
         stm.instanceMethod();
+
+        //2) static method can only access other static variables and methods
     }
 }

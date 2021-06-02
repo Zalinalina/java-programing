@@ -1,12 +1,17 @@
 package day48_constructor_static;
+public class Engine {
+    private int cylinders;
 
-public class Ingine {
+    public Engine() {
+    }
 
-   private int cylinders;
+    public Engine(int cylinders) {
+        this.cylinders = cylinders;
+    }
 
     @Override
     public String toString() {
-        return "Ingine{" +
+        return "Engine{" +
                 "cylinders=" + cylinders +
                 '}';
     }
@@ -19,3 +24,4 @@ public class Ingine {
         this.cylinders = cylinders;
     }
 }
+

@@ -37,6 +37,8 @@ public class groupObject {
         group1.removeMember("Elvin");
         System.out.println(group1);
 
+        System.out.println(group2);
+
     }
 }
 

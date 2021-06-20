@@ -2,7 +2,7 @@ package day18_condotions_practice_string_intro;
 
 public class FizzBazz {
     public static void main(String[] args) {
-        int num =15;
+        int num =100;
         if (num % 3 ==0 && num % 5 ==0){// if just iff will check and print everything
             System.out.println("FizzBuzz");
         }

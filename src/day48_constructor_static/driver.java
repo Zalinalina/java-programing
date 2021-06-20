@@ -1,14 +1,14 @@
 package day48_constructor_static;
 
-public class Driver {
+public class driver {
 
 
         private String name;
 
-        public Driver() {
+        public driver() {
         }
 
-        public Driver(String name) {
+        public driver(String name) {
             this.name = name;
         }
 

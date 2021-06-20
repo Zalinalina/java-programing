@@ -42,7 +42,7 @@ public class CustomerObject {
 
         for (int i = 0; 0 < customerList.size(); i++) {
             System.out.println(customerList.get(i));
-
+        }
 
             System.out.println("----- FOR EACH LOOP -----");
             for (Customer eachCustomer : customerList) {
@@ -52,10 +52,10 @@ public class CustomerObject {
                 System.out.println("-----Names 0f cudtomers -----");
             customerList.forEach(each -> System.out.println(each.getName()));
                 for (Customer eachCustomer : customerList) {
+                    System.out.println(eachCustomer);
 
                 }
 
             }
 
         }
-    }

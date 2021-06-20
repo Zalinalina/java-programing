@@ -1,11 +1,11 @@
 package day48_constructor_static;
-public class Engine {
+public class engine {
     private int cylinders;
 
-    public Engine() {
+    public engine() {
     }
 
-    public Engine(int cylinders) {
+    public engine(int cylinders) {
         this.cylinders = cylinders;
     }
 

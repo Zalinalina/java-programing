@@ -1,4 +1,4 @@
-package OfficeHours.Practice_14_06_2021;
+package OfficeHours.Practice_06_14_2021;
 
 public class Twix extends Candy{
     public Twix( int quality, boolean hasPeanuts) {
